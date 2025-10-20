@@ -1,0 +1,16 @@
+# === Core dependencies ===
+streamlit==1.39.0
+spacy==3.7.2
+sentence-transformers==3.1.1
+torch>=2.3.0
+transformers>=4.44.0
+
+# === Optional but recommended ===
+numpy>=1.24.0
+scipy>=1.11.0
+pandas>=2.1.0
+
+# === Model support (downloadable manually) ===
+# en_core_web_md  → https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.7.1/en_core_web_md-3.7.1-py3-none-any.whl
+# or fallback:
+# python -m spacy download en_core_web_sm
